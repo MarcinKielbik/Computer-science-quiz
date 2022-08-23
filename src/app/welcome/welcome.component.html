@@ -1,0 +1,22 @@
+<div class="container-sm">
+    <div class="row mt-5">
+        <div class="col-lg-9 mb-3">
+            <h1 class="display-5 fw-bold">Welcome to Computer science quiz!</h1>
+            <h4>Rules</h4>
+            <ol>
+                <li>Correct Question gives you 5 points</li>
+                <li>Incorrect question gives to -5 point</li>
+                <li>You will have 10 sec to answer each question</li>
+                <li>Refereshing the page will reset the quiz</li>
+            </ol>
+            <h5 class="mb-3">Good Luck</h5>
+            <h5><label for="">Enter your name: </label></h5>
+            <input #name type="text" class="form-control bg-dark text-light mt-2">
+            <button class="btn-quiz" routerLink="/question" (click)="startQuiz()">Start</button>
+        </div>
+        <div class="col-lg-3 mb-3">
+            <img class="img-fluid" src="{{imageMac}}" alt="{{altMac}}" />
+            <figcaption class="text-center mt-3"><a href="https://en.wikipedia.org/wiki/Macintosh_128K" target="_blank">The Apple Macintosh</a></figcaption>
+        </div>
+    </div>
+</div>
