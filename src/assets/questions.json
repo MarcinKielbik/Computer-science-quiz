@@ -19,7 +19,8 @@
     {
         "questionText": "When did first Windows come out?",
         "options": [{
-            "text":"1985"
+            "text":"1985",
+            "correct": true
         },
         {
             "text":"1990"
